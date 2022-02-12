@@ -4,6 +4,8 @@ import sys
 def get_system_info(platform: str):
     if 'win' in platform:
         return sys.getwindowsversion()
+    else:
+        return 'Linux, macOS, idk'
 
 
 if __name__ == '__main__':
